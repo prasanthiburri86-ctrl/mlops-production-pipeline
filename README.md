@@ -1,5 +1,6 @@
 MLOps Production Pipeline with FastAPI:
-This is a simple end-to-end machine learning production pipeline project. 
+This is a simple end-to-end machine learning production pipeline project.
+
 The goal of this project is to show how a machine learning model can be:
 Trained
 Saved
