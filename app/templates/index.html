@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Prediction</title>
+</head>
+<body>
+    <h2>Customer Purchase Prediction</h2>
+
+    <form action="/predict" method="post">
+        <label>Age:</label>
+        <input type="number" name="age" required><br><br>
+
+        <label>Salary:</label>
+        <input type="number" name="salary" required><br><br>
+
+        <label>Experience:</label>
+        <input type="number" name="experience" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
